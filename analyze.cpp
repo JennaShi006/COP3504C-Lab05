@@ -2,6 +2,9 @@
 #include <chrono>
 #include "StringData.h"
 
+//THIS COMMENT IS A TEST
+
+//Linear search algorithm
 int linearSearch(const std::vector<std::string> container, const std::string element)
 {
     for (int i = 0; i < container.size(); i++)
@@ -14,7 +17,7 @@ int linearSearch(const std::vector<std::string> container, const std::string ele
     return -1;
 }
 
-
+//Binary search algorithm
 int binarySearch(const std::vector<std::string> container, const std::string element)
 {
     int low = 0;
