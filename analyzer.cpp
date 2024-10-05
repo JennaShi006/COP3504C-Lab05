@@ -41,6 +41,7 @@ int binarySearch(const std::vector<std::string> container, const std::string ele
             high = mid - 1;
         }
     }
+//if not in container
     return -1;
 }
 
