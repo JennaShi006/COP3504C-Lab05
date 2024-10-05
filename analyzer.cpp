@@ -2,8 +2,6 @@
 #include <chrono>
 #include "StringData.h"
 
-//THIS COMMENT IS A TEST
-
 //Linear search algorithm
 =======
 
@@ -11,7 +9,7 @@
 >>>>>>> 67b0a91e03c7f383e49684e463334b489b5983d8
 int linearSearch(const std::vector<std::string> container, const std::string element)
 {
-    int test = 0;
+    
     for (int i = 0; i < container.size(); i++)
     {
         if (container[i] == element)
